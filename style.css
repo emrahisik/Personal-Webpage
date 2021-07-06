@@ -1,0 +1,73 @@
+/* all the content aligned to the center and all text designated with t a common font family*/
+
+*{
+  box-sizing: border-box;
+  font-family: cursive;
+  width: 500px;
+  margin: auto;
+}
+
+/* background color defined as color gradient */
+
+body{
+  background: linear-gradient(rgb(229, 233, 18,0.5), rgba(0, 142, 224, 0.5));
+  margin: 50px 0px;
+}
+
+/* h1 font styled*/
+
+h1 {
+  font-size: 64px;
+  padding-top: 45px;
+  margin-top: 0px;
+  }
+
+/* selectors with same attribute values grouped together*/
+
+h1, header h2, nav {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p, ul, ol{
+  line-height: 1.5;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+img {
+  border-radius: 20px
+}
+
+footer {
+  padding-left: 150px;
+  margin-top: 50px;
+  
+}
+
+/* horizontal ruler styled with an image*/
+
+hr {
+  width: 600px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: none;
+  background-image: url("images/hr.png");
+}
+
+/* anchor links styled for each action with a seperate color */
+a:link    { color: rgba(0, 0, 255, 0.685);  }
+a:visited { color: red;   }
+a:hover   { color: rgb(0, 169, 175); }
+a:active  { color: rgb(139, 250, 244);  }
