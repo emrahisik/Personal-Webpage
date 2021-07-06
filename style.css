@@ -33,11 +33,17 @@ h2 {
   font-size: 32px;
 }
 
+h3 {
+  font-size: 24px;
+  line-height: 3;
+}
+
 p, ul, ol{
   line-height: 1.5;
 }
 
 nav {
+  margin-top: 30px;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -46,7 +52,8 @@ nav {
 
 
 img {
-  border-radius: 20px
+  border-radius: 20px;
+  padding-bottom: 40px;
 }
 
 footer {
